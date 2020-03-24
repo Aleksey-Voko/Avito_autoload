@@ -1,6 +1,6 @@
 # Авито Автозагрузка #
 #### Генератор XML-файла для сервиса "Авито Автозагрузка" в соответствие с требованиями сервиса ####
 
-<a href="https://autoload.avito.ru/format/" target="_blank">Общее описание сервиса Авито Автозагрузка</a>
+[Общее описание сервиса Авито Автозагрузка](https://autoload.avito.ru/format/){:target="_blank" rel="noopener"}
 
-<a href="https://autoload.avito.ru/format/xmlcheck/" target="_blank">Валидатор XML-файла</a>
+[Валидатор XML-файла](https://autoload.avito.ru/format/xmlcheck/){:target="_blank" rel="noopener"}
