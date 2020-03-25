@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Ads formatVersion="3" target="Avito.ru">
-  <Ad>
-    <Id>2020-03-001</Id>
-    <DateBegin>2020-03-01T05:00:00+03:00</DateBegin>
-    <ListingFee>Package</ListingFee>
-    <AdStatus>Free</AdStatus>
-    <ManagerName>Bill Gates</ManagerName>
-    <ContactPhone>8 800 200 80 01</ContactPhone>
-    <Address>Redmond, Washington, U.S.</Address>
-    <Category>Игры, приставки и программы</Category>
-    <GoodsType>Компьютерные игры</GoodsType>
-    <Title>Microsoft Windows 12 edu x48-bit with source code</Title>
-    <Description><![CDATA[<p>Microsoft Windows 12 учебная, 48-битная,<br>
+    <Ad>
+        <Id>2020-03-001</Id>
+        <DateBegin>2020-03-01T05:00:00+03:00</DateBegin>
+        <ListingFee>Package</ListingFee>
+        <AdStatus>Free</AdStatus>
+        <ManagerName>Bill Gates</ManagerName>
+        <ContactPhone>8 800 200 80 01</ContactPhone>
+        <Address>Redmond, Washington, U.S.</Address>
+        <Category>Игры, приставки и программы</Category>
+        <GoodsType>Компьютерные игры</GoodsType>
+        <Title>Microsoft Windows 12 edu x48-bit with source code</Title>
+        <Description><![CDATA[<p>Microsoft Windows 12 учебная, 48-битная,<br>
 ☝☝☝☝☝☝☝☝☝☝<br>
 <strong>OEM веб-версия без упаковки,</strong><br></p>
 <ul>
@@ -24,25 +24,25 @@
 <p>⚡⚡⚡⚡ Wi-Fi в комплекте ⚡⚡⚡⚡,<br>
 исходники прилагаются,<br>
 часть исходников на паскале (EAP)</p>]]></Description>
-    <Price>880</Price>
-    <Condition>Новое</Condition>
-    <Images>
-      <Image url="https://www.microsoft.com/картинки/виндовс-1.bmp"/>
-      <Image url="https://www.microsoft.com/картинки/виндовс-2.bmp"/>
-    </Images>
-  </Ad>
-  <Ad>
-    <Id>2020-03-002</Id>
-    <DateBegin>2020-03-01T05:00:00+03:00</DateBegin>
-    <ListingFee>Package</ListingFee>
-    <AdStatus>Free</AdStatus>
-    <ManagerName>Bill Gates</ManagerName>
-    <ContactPhone>8 800 200 80 01</ContactPhone>
-    <Address>Redmond, Washington, U.S.</Address>
-    <Category>Игры, приставки и программы</Category>
-    <GoodsType>Компьютерные игры</GoodsType>
-    <Title>Microsoft Windows 12 edu x48-bit with source code</Title>
-    <Description><![CDATA[<p>Microsoft Windows 12 учебная, 48-битная,<br>
+        <Price>880</Price>
+        <Condition>Новое</Condition>
+        <Images>
+            <Image url="https://www.microsoft.com/картинки/виндовс-1.bmp"/>
+            <Image url="https://www.microsoft.com/картинки/виндовс-2.bmp"/>
+        </Images>
+    </Ad>
+    <Ad>
+        <Id>2020-03-002</Id>
+        <DateBegin>2020-03-01T05:00:00+03:00</DateBegin>
+        <ListingFee>Package</ListingFee>
+        <AdStatus>Free</AdStatus>
+        <ManagerName>Bill Gates</ManagerName>
+        <ContactPhone>8 800 200 80 01</ContactPhone>
+        <Address>Redmond, Washington, U.S.</Address>
+        <Category>Игры, приставки и программы</Category>
+        <GoodsType>Компьютерные игры</GoodsType>
+        <Title>Microsoft Windows 12 edu x48-bit with source code</Title>
+        <Description><![CDATA[<p>Microsoft Windows 12 учебная, 48-битная,<br>
 ☝☝☝☝☝☝☝☝☝☝<br>
 <strong>OEM веб-версия без упаковки,</strong><br></p>
 <ul>
@@ -55,11 +55,11 @@
 <p>⚡⚡⚡⚡ Wi-Fi в комплекте ⚡⚡⚡⚡,<br>
 исходники прилагаются,<br>
 часть исходников на паскале (EAP)</p>]]></Description>
-    <Price>440</Price>
-    <Condition>Б/у</Condition>
-    <Images>
-      <Image url="https://www.microsoft.com/картинки/виндовс-1.bmp"/>
-      <Image url="https://www.microsoft.com/картинки/виндовс-2.bmp"/>
-    </Images>
-  </Ad>
+        <Price>440</Price>
+        <Condition>Б/у</Condition>
+        <Images>
+            <Image url="https://www.microsoft.com/картинки/виндовс-1.bmp"/>
+            <Image url="https://www.microsoft.com/картинки/виндовс-2.bmp"/>
+        </Images>
+    </Ad>
 </Ads>

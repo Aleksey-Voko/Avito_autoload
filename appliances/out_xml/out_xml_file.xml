@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Ads formatVersion="3" target="Avito.ru">
+    <Ad>
+        <Id>723681273</Id>
+        <DateBegin>2020-04-01T05:00:00+03:00</DateBegin>
+        <DateEnd>2020-05-01T05:00:00+03:00</DateEnd>
+        <AdStatus>TurboSale</AdStatus>
+        <ManagerName>Иван Петров-Водкин</ManagerName>
+        <ContactPhone>8 800 200 80 01</ContactPhone>
+        <Address>Владимирская область, г. Владимир, ул. Гагарина, 1</Address>
+        <Category>Бытовая техника</Category>
+        <GoodsType>Стиральные машины</GoodsType>
+        <AdType>Товар приобретен на продажу</AdType>
+        <Title>Стиральная машина Candy GC4 1051 D</Title>
+        <Description><![CDATA[<p>Характеристики:</p>
+<ul>
+<li>отдельно стоящая стиральная машина
+<li>60x40x85 см
+<li>фронтальная загрузка
+<li>стирка до 5 кг
+<li>класс энергопотребления: A+
+<li>электронное управление
+<li>отжим при 1000 об/мин
+<li>защита от протечек
+</ul>]]></Description>
+        <Price>15000</Price>
+        <Condition>Новый</Condition>
+        <Images>
+            <Image url="http://img.test.ru/8F7B-4A4F3A0F2BA1.jpg"/>
+            <Image url="http://img.test.ru/8F7B-4A4F3A0F2XA3.jpg"/>
+        </Images>
+        <VideoURL>http://www.youtube.com/watch?v=YKmDXNrDdBI</VideoURL>
+    </Ad>
+    <Ad>
+        <Id>remont_i_stroitelstvo001</Id>
+        <AllowEmail>Нет</AllowEmail>
+        <ContactPhone>8 800 200 80 01</ContactPhone>
+        <Address>Санкт-Петербург, Лиговский проспект, 1</Address>
+        <Category>Ремонт и строительство</Category>
+        <GoodsType>Инструменты</GoodsType>
+        <AdType>Товар приобретен на продажу</AdType>
+        <Title>Перфоратор Makita HR3200C</Title>
+        <Description>Перфоратор имеет три режима работы: сверление, сверление с ударом, долбление.
+ 
+Мощность, Вт 850 
+Max диаметр сверления коронкой (бетон), мм: 90 
+Max диаметр сверления</Description>
+        <Price>250000</Price>
+        <Condition>Новый</Condition>
+        <Images>
+            <Image name="8F7B-4A4F3A0F2BA1.jpg"/>
+            <Image name="8F7B-4A4F3A0F2XA3.jpg"/>
+        </Images>
+    </Ad>
+    <Ad>
+        <Id>mebel_i_interer002</Id>
+        <AllowEmail>Нет</AllowEmail>
+        <ContactPhone>8 800 200 80 01</ContactPhone>
+        <Address>Москва, улица Лесная, 9</Address>
+        <Category>Мебель и интерьер</Category>
+        <GoodsType>Кровати, диваны и кресла</GoodsType>
+        <AdType>Товар от производителя</AdType>
+        <Title>Кровать детская Легенда 24</Title>
+        <Description>Спальное место: 80х160 см, габариты: 1642×882×500 мм, материал: ЛДСП, цвет корпуса: венге светлый</Description>
+        <Price>25000</Price>
+        <Condition>Новый</Condition>
+        <Images>
+            <Image name="8F7B-4A4F3A0F2BA1.jpg"/>
+            <Image name="8F7B-4A4F3A0F2XA3.jpg"/>
+        </Images>
+    </Ad>
+</Ads>

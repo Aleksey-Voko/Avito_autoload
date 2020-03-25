@@ -62,6 +62,7 @@ def save_root_xml(xml_file_path, advert_dicts_list):
         for img_url in advert_dict['Images']:
             etree.SubElement(images, 'Image', url=img_url)
 
+    etree.indent(root, space='    ')  # WTF: ???
     handle = etree.tostring(root, pretty_print=True, encoding='utf-8',
                             xml_declaration=True)
     Path(xml_file_path).parent.mkdir(exist_ok=True)
