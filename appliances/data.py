@@ -7,6 +7,7 @@ GOODS_TYPE = 'Холодильники и морозильные камеры'
 AD_TYPE = 'Товар от производителя'
 CONDITION = 'Новый'
 PHOTO_STORAGE = 'https://subzero.su/files/avito3/'
+START_TIME = '01-03-2020;08:00'
 
 
 def get_description(brand):

@@ -1,3 +1,5 @@
+"""Шаблон под разные категории"""
+
 from pathlib import Path
 
 from lxml import etree
@@ -68,69 +70,3 @@ def save_root_xml(xml_file_path, advert_dicts_list):
     Path(xml_file_path).parent.mkdir(exist_ok=True)
     with open(xml_file_path, 'bw') as f_out:
         f_out.write(handle)
-
-
-if __name__ == '__main__':
-    file_name = 'out_xml_file.xml'
-    path = Path('out_xml') / file_name
-
-    descr = '''\
-<p>Microsoft Windows 12 учебная, 48-битная,<br>
-☝☝☝☝☝☝☝☝☝☝<br>
-<strong>OEM веб-версия без упаковки,</strong><br></p>
-<ul>
-<li>✅ Продажа от <strong>1 шт</strong>!</li>
-<li>✅ Оплата <strong>при получении</strong> (наложенный платеж)!</li>
-<li>✅ Доставка <strong>DPD</strong>, <strong>СДЭК</strong>,&nbsp;<strong>Почтой России</strong> или любой ТК - оплата товара при получении.</li>
-<li>✅ <strong>Мы производитель</strong> - изготовим нестандартный размер <strong>на любой прибор</strong> (бытовой, торговый, промышленный)!</li>
-<li>✅ <strong>Гарантия </strong>на все изделия (обмен или возврат без чека).</li>
-</ul>
-<p>⚡⚡⚡⚡ Wi-Fi в комплекте ⚡⚡⚡⚡,<br>
-исходники прилагаются,<br>
-часть исходников на паскале (EAP)</p>\
-'''
-
-    ad_dicts = [
-        {
-            'Id': '2020-03-001',
-            'DateBegin': '2020-03-01T05:00:00+03:00',
-            'ListingFee': 'Package',
-            'AdStatus': 'Free',
-            'ManagerName': 'Bill Gates',
-            'ContactPhone': '8 800 200 80 01',
-            'Address': 'Redmond, Washington, U.S.',
-            'Category': 'Игры, приставки и программы',
-            'GoodsType': 'Компьютерные игры',
-            'AdType': 'Товар от производителя',
-            'Title': 'Microsoft Windows 12 edu x48-bit with source code',
-            'Description': descr,
-            'Price': '880',
-            'Condition': 'Новое',
-            'Images': [
-                'https://www.microsoft.com/картинки/виндовс-1.bmp',
-                'https://www.microsoft.com/картинки/виндовс-2.bmp',
-            ],
-        },
-        {
-            'Id': '2020-03-002',
-            'DateBegin': '2020-03-01T05:00:00+03:00',
-            'ListingFee': 'Package',
-            'AdStatus': 'Free',
-            'ManagerName': 'Bill Gates',
-            'ContactPhone': '8 800 200 80 01',
-            'Address': 'Redmond, Washington, U.S.',
-            'Category': 'Игры, приставки и программы',
-            'GoodsType': 'Компьютерные игры',
-            'AdType': 'Товар от производителя',
-            'Title': 'Microsoft Windows 12 edu x48-bit with source code',
-            'Description': descr,
-            'Price': '440',
-            'Condition': 'Б/у',
-            'Images': [
-                'https://www.microsoft.com/картинки/виндовс-1.bmp',
-                'https://www.microsoft.com/картинки/виндовс-2.bmp',
-            ],
-        },
-    ]
-
-    save_root_xml(path, ad_dicts)
